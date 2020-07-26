@@ -1,0 +1,147 @@
+.filter-div {
+	margin: auto;
+	max-width: 800px;
+	padding: 20px;
+}
+
+.input {
+	line-height: 2;
+	font-size: 12px;
+	height: auto;
+	padding-left: 20px;
+}
+/* modal css */
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(132, 71, 212);
+}
+.modal-main {
+	position: fixed;
+	background-image: linear-gradient(
+		to right,
+		rgba(17, 10, 10, 0),
+		rgb(114, 194, 226)
+	);
+	width: 50%;
+	height: auto;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.display-block {
+	display: block;
+}
+
+.display-none {
+	display: none;
+}
+/* modal css end */
+
+/* country table css */
+
+body {
+	margin: 0;
+	background-image: linear-gradient(
+		to right,
+		rgba(236, 168, 168, 0),
+		rgb(94, 123, 136)
+	);
+}
+.header {
+	background-color: rgb(57, 147, 79);
+	color: rgb(177, 148, 148);
+	font-size: 1.5em;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+.country-table {
+	border: 1px solid #777d7e;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+	max-width: 90%;
+	margin: 1em auto;
+	overflow: hidden;
+	width: 800px;
+}
+.table {
+	width: 100%;
+}
+.td,
+.btn,
+.th {
+	color: #398b93;
+	padding: 10px;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.tdh:hover {
+	cursor: pointer;
+}
+.td {
+	text-align: center;
+	vertical-align: middle;
+}
+.td,
+.th:first-child {
+	font-size: 0.95em;
+	line-height: 1.4;
+	text-align: left;
+}
+.th {
+	background-color: rgb(73, 73, 80);
+	text-align: left;
+	font-weight: 300;
+}
+.tr:nth-child(2n) {
+	background-color: white;
+}
+.tr:nth-child(2n + 1) {
+	background-color: #e4e0e0;
+}
+
+/* country table css end */
+
+.loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	width: 150px;
+	height: 150px;
+	margin: -75px 0 0 -75px;
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 120px;
+	height: 120px;
+
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
