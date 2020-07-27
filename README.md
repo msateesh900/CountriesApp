@@ -18,7 +18,7 @@ The description of the API is available [here](https://restcountries.eu/?ref=pub
 ### Implemented Techs
 
 1. Used Hooks and Functional Components
-2. Implemented test Cases using Jest (Jest is already setup in the project and ready to be executed through the command `yarn test`)
+2. Implemented test Cases using Jest (Jest is already setup in the project and ready to be executed through the command `npm test`)
 
 ### Functional Implementations
 
